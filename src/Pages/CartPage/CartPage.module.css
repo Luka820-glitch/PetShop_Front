@@ -1,0 +1,121 @@
+.cartPage {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+}
+
+.cartItem {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.cartItem:hover {
+  transform: translateY(-3px);
+}
+
+
+.totalSection {
+  margin-top: 40px;
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+
+.buyNowBtn, .deleteButton, .quantityButton {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(240, 238, 237, 1);
+    padding: 11px 13px;
+    background-color: rgb(23, 98, 4);
+    border-radius: 5px;
+    cursor: pointer;
+    max-height:57px;
+}
+
+.deleteButton {
+    background-color: rgb(233, 105, 105);
+}
+
+.quantityButton {
+    background-color: rgb(23, 98, 4);
+}
+
+.toggleCurrencyBtn {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(240, 238, 237, 1);
+    padding: 11px 13px;
+    background-color: rgba(31, 31, 34, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    max-height:57px;
+}
+
+
+.toggleCurrencyBtn:hover,
+.quantityButton:hover {
+  background-color: #444;
+}
+
+.deleteButton:hover {
+  background-color: rgb(215, 80, 80);
+}
+
+.quantityButton:hover, .buyNowBtn:hover {
+  background-color: rgb(18, 85, 3);
+}
+
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.quantityButton {
+  padding: 8px 14px;
+  font-size: 18px;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
