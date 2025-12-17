@@ -1,0 +1,135 @@
+.ArrowDiv {
+    width: 252px;
+    height: 52px;
+    display: flex;
+    gap: 21px;
+    margin-bottom: 40px;
+    margin-top: 86px;
+    margin-left: 102px;
+    align-items: center;
+    cursor: pointer;  
+}
+
+.ArrowTitle {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(31, 31, 34, 1);
+}
+
+
+.BigPhoto {
+    width: 50%;
+    height: 802px;
+    border-radius: 5px;
+    margin-left: 105px;
+    margin-bottom: 86px;
+}
+
+
+
+.DetailedPageText {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 513px;
+}
+
+
+
+.DetailedPageContent {
+    display: flex;
+    gap: 102px;
+    align-items: flex-start;
+}
+
+
+.Description {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(31, 31, 34, 1);
+    width: 593px;
+    height: 309px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: normal;     
+    overflow-wrap: break-word; 
+    word-break: break-word;
+}
+
+
+.Title{
+    font-family: "High Tower Text";
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(31, 31, 34, 1);
+    align-self: flex-start;
+    white-space: normal;     
+    overflow-wrap: break-word; 
+    word-break: break-word;
+}
+
+
+.AnimalPrice {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(97, 74, 72, 1);
+}
+
+.CurrencyButton {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(240, 238, 237, 1);
+    padding: 11px 13px;
+    background-color: rgba(31, 31, 34, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    max-height:57px;
+}
+
+
+.DetailedValues {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 70px;
+  margin-bottom: 55px;
+}
+
+
+.DetailedValuesMini {
+    display: flex;
+    justify-content: flex-start;
+    gap: 27px;
+    width: 248px;
+    align-items: center;
+}
+
+.p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(119, 74, 71, 1);
+    white-space: normal;     
+    overflow-wrap: break-word; 
+    word-break: break-word;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.addButtons {
+    display: flex;
+    gap: 20px;
+}
